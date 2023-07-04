@@ -68,9 +68,8 @@ img.next-image {
   text-align: center;
   display: flex;
   justify-content: center;
-}
-.center > * {
-  display: block;
+  flex-wrap: wrap;
+
 }
 
 .btn {
