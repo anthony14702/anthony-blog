@@ -64,9 +64,19 @@ img.next-image {
   color: #69778c;
 }
 
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.center > * {
+  display: block;
+}
+
 .btn {
   padding:8px 16px;
   border-radius: 64px;
   color:#fff;
   background: #ff4444;
+  text-decoration: none;
 }
