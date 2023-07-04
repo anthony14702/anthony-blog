@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'AI_GIRLs',
+    title: 'AI GIRLs',
     description: 'Portfolio of beautiful girls made by AI',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+    image: '/images/003.png',
   }
 
   return (
