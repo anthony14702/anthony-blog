@@ -22,7 +22,7 @@ async function generate() {
       const frontmatter = matter(content)
 
       feed.item({
-        title: `AI GIRLs | ${frontmatter.data.title}`,
+        title: frontmatter.data.title,
         url: '/posts/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,

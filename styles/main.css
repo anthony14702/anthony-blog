@@ -69,9 +69,9 @@ img.next-image {
   display: flex;
   justify-content: center;
 }
-/* .center > * {
+.center > * {
   display: block;
-} */
+}
 
 .btn {
   padding:8px 16px;
